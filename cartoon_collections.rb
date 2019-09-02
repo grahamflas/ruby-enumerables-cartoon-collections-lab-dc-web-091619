@@ -17,16 +17,20 @@ def long_planeteer_calls(array)
     end
 end
 
-
 def find_the_cheese(array)
-    array.detect(ifnone = nil) {|element| element == "cheddar" || "gouda" || "camembert"}
-    # cheese_array = Array.new
+    array.detect(ifnone = nil) {|element| element == "cheddar" || element == "gouda" || element == "camembert"}
+end
 
-    # if array.include?("cheddar" || "gouda" || "camembert")
-    #     array.map do |element|
-    #         if cheese_array.push(element)
-    #     end
-    # end
 
-# cheese_types = ["cheddar", "gouda", "camembert"]
-end  
+# def find_the_cheese(array)
+#     array.detect(ifnone = nil) {|element| element == "cheddar" || "gouda" || "camembert"}
+#     # cheese_array = Array.new
+
+#     # if array.include?("cheddar" || "gouda" || "camembert")
+#     #     array.map do |element|
+#     #         if cheese_array.push(element)
+#     #     end
+#     # end
+
+# # cheese_types = ["cheddar", "gouda", "camembert"]
+# end  
